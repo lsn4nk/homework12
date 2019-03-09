@@ -1,0 +1,64 @@
+{
+    "shop": {
+        "fruitDepartment": {
+            "shopWindow1": {
+                "apples": [
+                    {
+                        "name": "Golden",
+                        "weight": 20,
+                        "price": 25
+                    },
+                    {
+                        "name": "Semerenko",
+                        "weight": 10,
+                        "price": 15
+                    }   
+                ],
+                "oranges": [
+                    {
+                        "name": "Sort1",
+                        "weight": 25,
+                        "price": 40
+                    },
+                    {
+                        "name": "Sort2",
+                        "weight": 30,
+                        "price": 55
+                    }   
+                ]
+            },
+            "shopWindow2": {
+                "mango": [
+                    {
+                        "name": "Big",
+                        "piece": 20,
+                        "price": 50
+                    },
+                    {
+                        "name": "Small",
+                        "piece": 25,
+                        "price": 40
+                    }   
+                ]   
+            }
+            
+        }
+        
+    },
+    "meatDepartment": {
+        "shopWindow1": {
+            "herring": [
+                {
+                    "name": "Finnish",
+                    "weight": 30,
+                    "price": 80
+                },
+                {
+                    "name": "Norwegian",
+                    "pack": 10,
+                    "price": 40
+                }   
+            ]
+        }
+    }
+}

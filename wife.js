@@ -3,15 +3,17 @@ const husband = require('./husband');
 const res = husband.myHusband.getSalary();
 const res1 = husband.myHusband.getFriends();
 const res2 = husband.myHusband.isSober();
-//const res3 = husband.myHusband.getCount();
 
-//console.log(res);
-//console.log(res1);
-//console.log(res2);
-//console.log(res3);
+const fs = require('fs');
 
-function showCount() {
-    const res3 = husband.myHusband.getCount();
-    return res3;
-}
-module.exports.showCount = showCount;
+fs.readFile('husband.js', 'utf8', (err, data) => {
+    if (err) throw err;
+    const result = '\n' + husband.myHusband.getSalary() + 
+    '\n' + husband.myHusband.getFriends() + 
+    '\n' + husband.myHusband.isSober();
+    console.log(result);
+    fs.appendFile('./result.txt', result, (err) => {
+        if (err) throw new Error('cannot write')
+        console.log('saved');
+    });
+  });

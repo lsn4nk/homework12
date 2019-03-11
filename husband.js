@@ -1,11 +1,11 @@
-let count = 0;
+//let count = 0;
 
 class Husband {
     getSalary () {
         
         const salary = 1000;
         const newSalary = salary - 200;
-        count++;
+        //count++;
         return newSalary;
        
     }
@@ -15,18 +15,15 @@ class Husband {
         for(let i = 0; i <= 2; i++) {
             friendsForWife.push(friends[i]);
         }
-        count++;
+        //count++;
         return friendsForWife;
     }
     isSober() {
         const sober = true;
         if(sober === true || false) {
-            count++;
+            //count++;
             return "SOBER";
         }
-    }
-    getCount() {
-        return count;
     }
 }
 

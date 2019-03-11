@@ -42,23 +42,23 @@
                 ]   
             }
             
+        },
+        "meatDepartment": {
+            "shopWindow1": {
+                "herring": [
+                    {
+                        "name": "Finnish",
+                        "weight": 30,
+                        "price": 80
+                    },
+                    {
+                        "name": "Norwegian",
+                        "pack": 10,
+                        "price": 40
+                    }   
+                ]
+            }
         }
         
-    },
-    "meatDepartment": {
-        "shopWindow1": {
-            "herring": [
-                {
-                    "name": "Finnish",
-                    "weight": 30,
-                    "price": 80
-                },
-                {
-                    "name": "Norwegian",
-                    "pack": 10,
-                    "price": 40
-                }   
-            ]
-        }
     }
 }
